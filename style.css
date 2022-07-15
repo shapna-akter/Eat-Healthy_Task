@@ -1,0 +1,129 @@
+/* common and reuseable code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+}
+h1, h2{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #575757;
+    padding-bottom: 2rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+p{
+    color: #919191;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+span{
+    color: #FD5D35;
+}
+img{
+    width: 100%;
+}
+/* common and reuseable code */
+
+/* about food section starts */
+.half-width{
+    flex-basis: 50%;
+}
+#about-me{
+    background-image: url(image/Frame\ 59.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.button{
+    margin-top: 3rem;
+}
+.button a{
+    background: linear-gradient(#FE4A2E, #FC8F49);
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.8rem 1rem;
+    border-radius: 1.5rem;
+    transition: 2s;
+    box-shadow: 0rem .5rem 4rem #fc8f49;
+}
+.button a:hover{
+    background: linear-gradient(#FC8F49, #FE4A2E);
+}
+/* about food section endss */
+
+/* my recipe section start */
+#my-recipies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    margin: 0.5rem;
+    padding: 1.5rem; 
+    box-shadow: 0 1rem 2rem #4444;
+    border-radius: 0.5rem;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.description{
+    padding: 1rem 0;
+}
+/* my recipe section end */
+
+.subscribers{
+    box-shadow: 0 1rem 4rem #4444;
+    width: 90%;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+.container li{
+    padding: 4rem;
+    text-align: center;
+}
+
+/* Footer section starts */
+footer{
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 2rem;
+}
+/* Footer section ends */
