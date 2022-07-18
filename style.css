@@ -105,7 +105,9 @@ img{
     padding: 1rem 0;
 }
 /* my recipe section end */
-
+#followers{
+    padding-top: 0;
+}
 .subscribers{
     box-shadow: 0 1rem 4rem #4444;
     width: 90%;
